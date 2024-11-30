@@ -1,6 +1,6 @@
-baseURL: https://example.org/
-languageCode: en-us
-title: My New Hugo Site
+baseURL: "https://blog.rcofruit.com"
+languageCode: "zh-cn"
+title: "My New Hugo Site"
 theme: ["PaperMod"]
 
 params:
@@ -8,6 +8,18 @@ params:
   enableSearch: true
   ShowToc: true
   ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  
+  # 添加主页设置
+  homeInfoParams:
+    Title: "欢迎来到我的博客 👋"
+    Content: "这里是一个使用 Hugo + PaperMod 主题构建的博客..."
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/youjiaping123"
 
 menu:
   main:
@@ -19,3 +31,7 @@ menu:
       name: Search
       url: /search/
       weight: 20
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 30

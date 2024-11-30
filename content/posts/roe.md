@@ -22,6 +22,7 @@ cover:
     alt: "博客封面"
     caption: "使用 Hugo + PaperMod 主题构建的个人博客"
 weight: 1
+draft: false
 ---
 
 ## 🎯 博客介绍
