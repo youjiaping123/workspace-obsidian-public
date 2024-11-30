@@ -1,40 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>My New Hugo Site</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on My New Hugo Site</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.139.3</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 16 Oct 2024 12:16:04 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>博客介绍</title>
+      <title>测试文章</title>
       <link>http://localhost:1313/posts/roe/</link>
-      <pubDate>Wed, 16 Oct 2024 12:16:04 +0800</pubDate>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/roe/</guid>
-      <description>&lt;h2 id=&#34;-博客介绍&#34;&gt;🎯 博客介绍&lt;/h2&gt;&#xA;&lt;p&gt;这是一个使用 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; 构建的静态博客网站，主题使用的是 &lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod/&#34;&gt;PaperMod&lt;/a&gt;。&lt;/p&gt;&#xA;&lt;h3 id=&#34;-主要特性&#34;&gt;🌟 主要特性&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;快速加载&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;静态页面生成&lt;/li&gt;&#xA;&lt;li&gt;图片懒加载&lt;/li&gt;&#xA;&lt;li&gt;最小化 CSS&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;功能丰富&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🌓 自动暗黑模式&lt;/li&gt;&#xA;&lt;li&gt;🔍 全站搜索&lt;/li&gt;&#xA;&lt;li&gt;📑 文章目录&lt;/li&gt;&#xA;&lt;li&gt;📊 阅读时间估算&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;-代码展示&#34;&gt;💡 代码展示&lt;/h2&gt;&#xA;&lt;p&gt;这里是一个 Python 代码示例：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Archives</title>
-      <link>http://localhost:1313/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/archives/</guid>
-      <description>archives</description>
-    </item>
-    <item>
-      <title>categories</title>
-      <link>http://localhost:1313/categories/categories/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/categories/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Search</title>
-      <link>http://localhost:1313/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/search/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;欢迎&#34;&gt;欢迎&lt;/h2&gt;
+&lt;p&gt;这是一篇测试文章。&lt;/p&gt;
+&lt;h3 id=&#34;功能测试&#34;&gt;功能测试&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;这是一个列表&lt;/li&gt;
+&lt;li&gt;测试列表功能&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;代码测试&#34;&gt;代码测试&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
   </channel>
 </rss>
