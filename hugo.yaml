@@ -1,6 +1,6 @@
 baseURL: "https://blog.rcofruit.com"
 languageCode: "zh-cn"
-title: "My New Hugo Site"
+title: "ROE's Blog"
 theme: ["PaperMod"]
 
 params:
@@ -11,27 +11,60 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
+  searchHidden: false
   
-  # 添加主页设置
-  homeInfoParams:
-    Title: "欢迎来到我的博客 👋"
-    Content: "这里是一个使用 Hugo + PaperMod 主题构建的博客..."
+  outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON
+  
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+  
+  profileMode:
+    enabled: true
+    title: "ROE"
+    subtitle: "May stand unshaken, amid a crashing world."
+    imageUrl: "/images/avatar.jpg"
+    imageTitle: "TRG Avatar"
+    imageWidth: 200
+    imageHeight: 200
+    buttons:
+      - name: "Posts"
+        url: "/posts"
+      - name: "Tags"
+        url: "/tags"
 
   socialIcons:
-    - name: github
+    - name: "link"
+      url: "https://www.roefruit.com/"
+    - name: "github"
       url: "https://github.com/youjiaping123"
+    - name: "rss"
+      url: "index.xml"
 
 menu:
   main:
-    - identifier: archives
-      name: Archives
-      url: /archives/
+    - identifier: categories
+      name: Categories
+      url: /categories/
       weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
     - identifier: search
       name: Search
       url: /search/
-      weight: 20
-    - identifier: posts
-      name: Posts
-      url: /posts/
       weight: 30
+    - identifier: github
+      name: Github
+      url: https://github.com/youjiaping123
+      weight: 40

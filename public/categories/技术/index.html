@@ -5,12 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>技术 | My New Hugo Site</title>
+<title>技术 | ROE&#39;s Blog</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/categories/%E6%8A%80%E6%9C%AF/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.d72444526d7ecbdb0015438a7fa89054a658bf759d0542e2e5df81ce94b493ee.css" integrity="sha256-1yREUm1&#43;y9sAFUOKf6iQVKZYv3WdBULi5d&#43;BzpS0k&#43;4=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.7bb9939f9d527b1f2147a98ef2d1affc292eae11d446d1eb26fe308af05c7768.css" integrity="sha256-e7mTn51Sex8hR6mO8tGv/CkurhHURtHrJv4wivBcd2g=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -74,7 +74,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <a href="http://localhost:1313/" accesskey="h" title="ROE&#39;s Blog (Alt + H)">ROE&#39;s Blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -100,8 +100,13 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/archives/" title="Archives">
-                    <span>Archives</span>
+                <a href="http://localhost:1313/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags/" title="Tags">
+                    <span>Tags</span>
                 </a>
             </li>
             <li>
@@ -110,37 +115,56 @@
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/posts/" title="Posts">
-                    <span>Posts</span>
+                <a href="https://github.com/youjiaping123" title="Github">
+                    <span>Github</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
                 </a>
             </li>
         </ul>
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/categories/">Categories</a></div>
+<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/">Home</a></div>
   <h1>
     技术
   </h1>
 </header>
 
 <article class="post-entry tag-entry"> 
-<figure class="entry-cover"><img loading="lazy" src="https://i.imgur.com/YxfxFyg.png" alt="博客封面">
-</figure>
   <header class="entry-header">
-    <h2 class="entry-hint-parent">博客介绍
+    <h2 class="entry-hint-parent">Git 实用技巧总结
     </h2>
   </header>
   <div class="entry-content">
-    <p></p>
+    <p>Git 常用命令 Git 是现代软件开发中最重要的工具之一，这里总结一些实用的 Git 技巧。
+分支管理 # 创建并切换分支 git checkout -b feature/new-branch # 合并分支 git merge feature/new-branch # 删除分支 git branch -d feature/new-branch 提交管理 # 修改最后一次提交 git commit --amend # 撤销最后一次提交 git reset HEAD~1 高级技巧 使用 git stash 暂存修改 使用 git rebase 整理提交历史 使用 git cherry-pick 选择性合并 </p>
   </div>
-  <footer class="entry-footer"><span title='2024-10-16 12:16:04 +0800 +0800'>October 16, 2024</span>&nbsp;·&nbsp;0 min&nbsp;·&nbsp;0 words&nbsp;·&nbsp;TRG</footer>
-  <a class="entry-link" aria-label="post link to 博客介绍" href="http://localhost:1313/posts/roe/"></a>
+  <footer class="entry-footer"><span title='2024-01-22 00:00:00 +0000 UTC'>January 22, 2024</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Git 实用技巧总结" href="http://localhost:1313/posts/git-skills/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Hugo博客搭建教程
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hugo 简介 Hugo 是一个用 Go 语言编写的静态网站生成器。它以其构建速度快著称，被称为&#34;世界上最快的网站构建框架&#34;。
+为什么选择 Hugo？ 超快的构建速度 简单的配置 丰富的主题 强大的模板功能 基本使用 # 创建新文章 hugo new posts/my-first-post.md # 本地预览 hugo server -D # 构建网站 hugo 进阶配置 Hugo 提供了很多进阶配置选项，可以实现：
+自定义主题 多语言支持 内容管理 SEO 优化 </p>
+  </div>
+  <footer class="entry-footer"><span title='2024-01-20 00:00:00 +0000 UTC'>January 20, 2024</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Hugo博客搭建教程" href="http://localhost:1313/posts/hugo-tutorial/"></a>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2024 <a href="http://localhost:1313/">My New Hugo Site</a></span> · 
+        <span>&copy; 2024 <a href="http://localhost:1313/">ROE&#39;s Blog</a></span> · 
 
     <span>
         Powered by

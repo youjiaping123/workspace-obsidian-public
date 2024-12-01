@@ -1,13 +1,122 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>ROE&#39;s Blog</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on ROE&#39;s Blog</description>
     <generator>Hugo -- 0.139.3</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>读《三体》有感</title>
+      <link>http://localhost:1313/posts/book-review/</link>
+      <pubDate>Tue, 23 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/book-review/</guid>
+      <description>&lt;h2 id=&#34;三体读书笔记&#34;&gt;《三体》读书笔记&lt;/h2&gt;
+&lt;p&gt;最近重读《三体》三部曲，对其中的科学构想和哲学思考有了新的感悟。&lt;/p&gt;
+&lt;h3 id=&#34;黑暗森林理论&#34;&gt;黑暗森林理论&lt;/h3&gt;
+&lt;p&gt;黑暗森林理论是小说中最引人深思的概念之一，它提出了一个关于宇宙文明的惊人假说：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;生存是文明的第一需要&lt;/li&gt;
+&lt;li&gt;文明不断增长和扩张&lt;/li&gt;
+&lt;li&gt;宇宙中的资源是有限的&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;科技发展的思考&#34;&gt;科技发展的思考&lt;/h3&gt;
+&lt;p&gt;小说中对科技发展的描述给我们带来很多启示：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;技术的双刃剑效应&lt;/li&gt;
+&lt;li&gt;人性在科技发展中的作用&lt;/li&gt;
+&lt;li&gt;文明的生存与发展&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Git 实用技巧总结</title>
+      <link>http://localhost:1313/posts/git-skills/</link>
+      <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/git-skills/</guid>
+      <description>&lt;h2 id=&#34;git-常用命令&#34;&gt;Git 常用命令&lt;/h2&gt;
+&lt;p&gt;Git 是现代软件开发中最重要的工具之一，这里总结一些实用的 Git 技巧。&lt;/p&gt;
+&lt;h3 id=&#34;分支管理&#34;&gt;分支管理&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 创建并切换分支&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git checkout -b feature/new-branch
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 合并分支&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git merge feature/new-branch
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 删除分支&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git branch -d feature/new-branch
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;提交管理&#34;&gt;提交管理&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 修改最后一次提交&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit --amend
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 撤销最后一次提交&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git reset HEAD~1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;高级技巧&#34;&gt;高级技巧&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;使用 git stash 暂存修改&lt;/li&gt;
+&lt;li&gt;使用 git rebase 整理提交历史&lt;/li&gt;
+&lt;li&gt;使用 git cherry-pick 选择性合并&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>摄影分享：城市夜景</title>
+      <link>http://localhost:1313/posts/photography-sharing/</link>
+      <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/photography-sharing/</guid>
+      <description>&lt;h2 id=&#34;城市夜景摄影技巧&#34;&gt;城市夜景摄影技巧&lt;/h2&gt;
+&lt;p&gt;夜景摄影是一门既迷人又具有挑战性的艺术。今天分享一些实用的夜景拍摄技巧。&lt;/p&gt;
+&lt;h3 id=&#34;基本设备&#34;&gt;基本设备&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;三脚架（必备）&lt;/li&gt;
+&lt;li&gt;广角镜头&lt;/li&gt;
+&lt;li&gt;快门线&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;相机设置&#34;&gt;相机设置&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;ISO：尽量保持在低感&lt;/li&gt;
+&lt;li&gt;光圈：f/8 - f/11&lt;/li&gt;
+&lt;li&gt;快门速度：视情况而定，通常在 1-30 秒&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;构图技巧&#34;&gt;构图技巧&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;利用建筑物的线条&lt;/li&gt;
+&lt;li&gt;寻找倒影&lt;/li&gt;
+&lt;li&gt;把握蓝调时刻&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Hugo博客搭建教程</title>
+      <link>http://localhost:1313/posts/hugo-tutorial/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hugo-tutorial/</guid>
+      <description>&lt;h2 id=&#34;hugo-简介&#34;&gt;Hugo 简介&lt;/h2&gt;
+&lt;p&gt;Hugo 是一个用 Go 语言编写的静态网站生成器。它以其构建速度快著称，被称为&amp;quot;世界上最快的网站构建框架&amp;quot;。&lt;/p&gt;
+&lt;h3 id=&#34;为什么选择-hugo&#34;&gt;为什么选择 Hugo？&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;超快的构建速度&lt;/li&gt;
+&lt;li&gt;简单的配置&lt;/li&gt;
+&lt;li&gt;丰富的主题&lt;/li&gt;
+&lt;li&gt;强大的模板功能&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;基本使用&#34;&gt;基本使用&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 创建新文章&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo new posts/my-first-post.md
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 本地预览&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo server -D
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 构建网站&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;进阶配置&#34;&gt;进阶配置&lt;/h2&gt;
+&lt;p&gt;Hugo 提供了很多进阶配置选项，可以实现：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;自定义主题&lt;/li&gt;
+&lt;li&gt;多语言支持&lt;/li&gt;
+&lt;li&gt;内容管理&lt;/li&gt;
+&lt;li&gt;SEO 优化&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>测试文章</title>
       <link>http://localhost:1313/posts/roe/</link>
@@ -23,6 +132,20 @@
 &lt;h3 id=&#34;代码测试&#34;&gt;代码测试&lt;/h3&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello World!&amp;#34;&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Categories</title>
+      <link>http://localhost:1313/categories/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/</guid>
+      <description>categories</description>
+    </item>
+    <item>
+      <title>Tags</title>
+      <link>http://localhost:1313/tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/</guid>
+      <description>tags</description>
     </item>
   </channel>
 </rss>

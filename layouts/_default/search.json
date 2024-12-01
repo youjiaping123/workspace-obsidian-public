@@ -1,0 +1,18 @@
+{
+    "articles": [
+        {
+            "title": "{{ .Title }}",
+            "content": "{{ .Plain }}",
+            "permalink": "{{ .Permalink }}",
+            "summary": "{{ .Summary }}"
+        }
+        {{- range .Site.RegularPages -}}
+        ,{
+            "title": "{{ .Title }}",
+            "content": "{{ .Plain }}",
+            "permalink": "{{ .Permalink }}",
+            "summary": "{{ .Summary }}"
+        }
+        {{- end }}
+    ]
+} 

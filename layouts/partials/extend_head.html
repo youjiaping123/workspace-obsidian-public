@@ -1,0 +1,5 @@
+{{- /* Search */ -}}
+{{- if (eq .Layout `search`) -}}
+<link crossorigin="anonymous" rel="preload" as="fetch" href="/index.json">
+<script defer src="/js/search.js"></script>
+{{- end -}} 

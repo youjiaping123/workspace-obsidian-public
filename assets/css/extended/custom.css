@@ -1,0 +1,47 @@
+.profile {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.profile img {
+    border-radius: 50%;
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.profile .buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.profile .button {
+    background: #444;
+    padding: 8px 20px;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.profile .button:hover {
+    background: #666;
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    color: #888;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #fff;
+} 
