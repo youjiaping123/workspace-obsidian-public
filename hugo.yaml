@@ -32,7 +32,7 @@ params:
     enabled: true
     title: "ROE"
     subtitle: "別碰大地，別看太陽。"
-    imageUrl: "/images/avatar.jpg"
+    imageUrl: "https://raw.githubusercontent.com/youjiaping123/image-hosting/refs/heads/main/avatars/6332bd6fc635e05d5a6781d6e2c469be_1.jpg"
     imageTitle: "TRG Avatar"
     imageWidth: 200
     imageHeight: 200
