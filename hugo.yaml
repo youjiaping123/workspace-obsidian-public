@@ -31,7 +31,7 @@ params:
   profileMode:
     enabled: true
     title: "ROE"
-    subtitle: "May stand unshaken, amid a crashing world."
+    subtitle: "別碰大地，別看太陽。"
     imageUrl: "/images/avatar.jpg"
     imageTitle: "TRG Avatar"
     imageWidth: 200
