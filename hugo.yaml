@@ -1,47 +1,53 @@
-baseURL: "https://blog.rcofruit.com"
-languageCode: "zh-cn"
-title: "ROE's Blog"
-theme: ["PaperMod"]
+# 基本配置
+baseURL: "https://blog.rcofruit.com"  # 网站域名
+languageCode: "zh-cn"                 # 网站语言
+title: "ROE's Blog"                   # 网站标题
+theme: ["PaperMod"]                   # 使用的主题
 
+# 全局参数配置
 params:
-  defaultTheme: auto
-  enableSearch: true
-  ShowToc: true
-  ShowReadingTime: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  searchHidden: false
-  
+  defaultTheme: auto                  # 默认主题模式（auto/light/dark）
+  enableSearch: true                  # 启用搜索功能
+  ShowToc: true                       # 显示文章目录
+  ShowReadingTime: true              # 显示阅读时间
+  ShowPostNavLinks: true             # 显示文章导航链接
+  ShowBreadCrumbs: true              # 显示面包屑导航
+  ShowCodeCopyButtons: true          # 显示代码复制按钮
+  searchHidden: false                # 内容是否对搜索隐藏
+
+  # 输出格式配置
   outputs:
     home:
       - HTML
       - RSS
       - JSON
-  
+
+  # 搜索功能配置
   fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
-  
+    isCaseSensitive: false           # 搜索是否区分大小写
+    shouldSort: true                 # 是否对结果排序
+    location: 0                      # 匹配位置
+    distance: 1000                   # 匹配距离
+    threshold: 0.4                   # 匹配阈值
+    minMatchCharLength: 0            # 最小匹配字符长度
+    keys: ["title", "permalink", "summary", "content"]  # 搜索键值
+
+  # 个人资料模式配置
   profileMode:
-    enabled: true
-    title: "ROE"
-    subtitle: "別碰大地，別看太陽。"
-    imageUrl: "https://s2.loli.net/2024/12/01/AgWdtvr6VXlTwcC.jpg"
-    imageTitle: "TRG Avatar"
-    imageWidth: 200
-    imageHeight: 200
-    buttons:
+    enabled: true                    # 启用个人资料模式
+    title: "ROE"                     # 个人资料标题
+    subtitle: "別碰大地，別看太陽。"    # 个人资料副标题
+    imageUrl: "https://s2.loli.net/2024/12/01/AgWdtvr6VXlTwcC.jpg"  # 头像URL
+    imageTitle: "TRG Avatar"         # 头像标题
+    imageWidth: 200                  # 头像宽度
+    imageHeight: 200                 # 头像高度
+    buttons:                         # 个人资料按钮
       - name: "Posts"
         url: "/posts"
       - name: "Tags"
         url: "/tags"
 
+  # 社交图标配置
   socialIcons:
     - name: "link"
       url: "https://www.roefruit.com/"
@@ -50,21 +56,28 @@ params:
     - name: "rss"
       url: "index.xml"
 
+# 菜单配置
 menu:
   main:
-    - identifier: categories
+    - identifier: categories         # 分类菜单
       name: Categories
       url: /categories/
       weight: 10
-    - identifier: tags
+    - identifier: tags              # 标签菜单
       name: Tags
       url: /tags/
       weight: 20
-    - identifier: search
+    - identifier: search            # 搜索菜单
       name: Search
       url: /search/
       weight: 30
-    - identifier: github
+    - identifier: github            # Github菜单
       name: Github
       url: https://github.com/youjiaping123
       weight: 40
+
+# 添加以下配置以支持HTML标签渲染
+markup:
+  goldmark:
+    renderer:
+      unsafe: true                  # 允许在markdown中使用HTML
