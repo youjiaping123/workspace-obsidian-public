@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: test
 share: "true"
 categories: Blog
 tags:
@@ -14,4 +14,4 @@ ShowWordCount: "true"
 ShowRssButton: "true"
 UseHugoToc: "true"
 ---
-这是一篇测试博客
+这是一篇测试博客，今天天气很冷
