@@ -14,3 +14,4 @@ ShowWordCount: "true"
 ShowRssButton: "true"
 UseHugoToc: "true"
 ---
+这是一篇测试文章，今天天气很冷
