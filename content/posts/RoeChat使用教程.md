@@ -17,7 +17,6 @@ ShowRssButton: "true"
 UseHugoToc: "true"
 ---
 ![image.png](https://s2.loli.net/2024/12/05/KGiPqLEDhzn21OH.png)
-访问地址:[NextChat](https://chat.roefruit.com/)
 # 快速入门
 - 准备好你的访问密码
 - 访问地址:[NextChat](https://chat.roefruit.com/)
